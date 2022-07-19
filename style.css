@@ -1,0 +1,189 @@
+@font-face{
+    src: url(fonts/Overpass-Light.ttf);
+    font-family: Overpass;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.banner{
+
+    position: relative;
+    min-height:  100vh;
+    background: url(banner.jpg);
+    background-size:  cover;
+    background-position: right;
+    display: flex;
+    justify-content:  space-between;
+    align-items:  center;
+}
+
+
+.about{
+    
+    min-height:  100vh;
+    position: relative;
+    background: url(black.jpg);
+    background-size:  cover;
+    background-position: right;
+    display: flex;
+    justify-content:  space-between;
+    align-items:  center;
+    color: rgb(255, 255, 255);
+}
+.about2{
+    
+    position: relative;
+    background: url(black.jpg);
+    background-size:  cover;
+    background-position: right;
+    justify-content:  space-between;
+    align-items:  center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.banner h2
+{
+font-size: 3em;
+color: rgb(255, 255, 255);
+font-weight: 500;
+line-height: 1.5em;
+}
+.banner h2 span{
+    font-size: 1.5 em;
+    font-weight: 700;
+}
+.banner h3
+{
+font-size: 1.5em;
+color: #fff;
+font-weight: 500;
+}
+
+.btn{
+
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight:  500;
+
+}
+
+.corprog{
+    text-align:  center;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 600px;
+    padding: 40px 100px;
+    z-index: 500;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header .sticky
+{
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0,1);
+
+}
+header ul
+{
+position: relative;
+display: flex;
+}
+
+header ul li
+{
+position: relative;
+list-style: none;
+}
+
+header ul li a 
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .sticky ul li a 
+{   
+    color:#111
+}
+
+.heading
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom:  30px;
+    color: #111;
+}
+.heading h2 
+{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBx
+{
+    padding-right: 150px;
+}
+.contentBx h3
+{
+
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contentBx p
+{
+    font-size: 18px;
+}
+.w50
+{
+    min-width: 50%;
+    padding-left: 20%;
+
+}
+.w50 h3
+{
+    font-size: 30px;
+}    
+img{
+    max-width: 100%;
+    
+}
